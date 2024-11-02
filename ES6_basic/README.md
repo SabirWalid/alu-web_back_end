@@ -1,3 +1,4 @@
+	
 Resources
 Read or watch:
 
@@ -22,6 +23,7 @@ Object creation and their properties in ES6
 Iterators and for-of loops
 
 Requirements
+
 General
 All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
 Allowed editors: vi, vim, emacs, Visual Studio Code
@@ -31,6 +33,7 @@ Your code should use the js extension
 Your code will be tested using the Jest Testing Framework
 Your code will be analyzed using the linter ESLint along with specific rules that we’ll provide
 All of your functions must be exported
+
 Setup
 Install NodeJS 12.11.x
 (in your home directory):
