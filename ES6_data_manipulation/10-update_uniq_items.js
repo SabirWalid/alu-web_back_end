@@ -1,6 +1,8 @@
-export default function updateUniqueItems(map) {
-  if (!(map instanceof Map)) throw Error('Cannot process');
-  const copy = map;
-  for (const [k, v] of map.entries()) if (v === 1) copy.set(k, 100);
-  return copy;
+export default function updateUniqueItems(groceries) {
+  if (!(groceries instanceof Map)) throw new Error('Cannot process');
+  for (const item of groceries.keys()) {
+    if (groceries.get(item) === 1) {
+      groceries.set(item, 100);
+    }
+  }
 }

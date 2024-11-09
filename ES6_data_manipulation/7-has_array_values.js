@@ -1,4 +1,7 @@
 export default function hasValuesFromArray(set, array) {
-  for (const i of array) if (!set.has(i)) return false;
-  return true;
+  let result = true;
+  for (const value of array) {
+    if (!set.has(value)) result = false;
+  }
+  return result;
 }
