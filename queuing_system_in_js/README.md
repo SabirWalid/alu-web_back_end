@@ -1,9 +1,3 @@
-# 0x14. Queuing System in JS
-:open_file_folder: Specializations - Web Stack programming ― Back-end  
-:bust_in_silhouette: by Johann Kerbrat, Engineering Manager at Uber Works  
-:copyright: **[Holberton School](https://www.holbertonschool.com/)**  
-:bookmark: async | express | javascript | kue | node | queues | redis
-
 ## Resources
 ### Read or watch:
 * [Redis quick start](https://redis.io/topics/quickstart)
